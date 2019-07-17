@@ -94,7 +94,7 @@ comment:
 
 # ========== Analytics ========== #
 # enable Busuanzi analytics
-busuanzi: true
+busuanzi: false
 # fill in pv or uv
 busuanzi_pv_or_uv: 'pv'
 # custom analytic slogan, '${count}' is the analytic number, DO NOT modify it.
@@ -104,7 +104,7 @@ baidu_analytics:
 # Google analytics
 google_analytics:
 # CNZZ analytics
-CNZZ_analytics:
+CNZZ_analytics: 1277827623
 
 # ========== Others ========== #
 # favicon
