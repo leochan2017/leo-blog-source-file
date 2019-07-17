@@ -30,13 +30,17 @@ social:
   others:
   rss:
 # friends
-friends:
-  # friendA: //www.baidu.com
-  # friendB: //www.google.com
-  # friendC:
+# friends:
+# friendA: //www.baidu.com
+# friendB: //www.google.com
+# friendC:
 about:
   enable: false
   image: '/intro/about-bg.jpg'
+
+# Leo: 增加自定义配置
+leocustom:
+  COLLECTION: //leochan2017.github.io/collection
 
 # ========== Site ========== #
 # title of the site (good for SEO)

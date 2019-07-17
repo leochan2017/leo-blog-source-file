@@ -28,4 +28,17 @@
             <a href = "<%- url_for("/about") %>" >ABOUT ME</a>
         </div>
     <% } %>
+    <!-- Leo: 增加自定义配置 -->
+    <% if(theme.leocustom) { %>
+        <div class="friends">
+            <!-- <div>FRIENDS</div> -->
+            <% for (name in theme.leocustom) { %>
+                <% if(theme.leocustom[name]) { %>
+                    <span>
+                        <a href= <%- theme.leocustom[name] %> target="_black"><%- name %></a>
+                    </span>
+                <% } %>
+            <% } %>
+        </div>
+    <% } %>
 </div>
