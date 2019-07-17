@@ -30,15 +30,15 @@
     <% } %>
     <!-- Leo: 增加自定义配置 -->
     <% if(theme.leocustom) { %>
-        <div class="friends">
-            <!-- <div>FRIENDS</div> -->
-            <% for (name in theme.leocustom) { %>
+        <% for (name in theme.leocustom) { %>
+            <div class="friends">
+                <!-- <div>FRIENDS</div> -->
                 <% if(theme.leocustom[name]) { %>
                     <span>
                         <a href= <%- theme.leocustom[name] %> target="_black"><%- name %></a>
                     </span>
                 <% } %>
-            <% } %>
-        </div>
+            </div>
+        <% } %>
     <% } %>
 </div>

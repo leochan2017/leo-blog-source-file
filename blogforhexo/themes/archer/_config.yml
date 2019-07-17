@@ -41,6 +41,7 @@ about:
 # Leo: 增加自定义配置
 leocustom:
   COLLECTION: /collection
+  Leo.js: /leoJs
 
 # ========== Site ========== #
 # title of the site (good for SEO)
