@@ -41,8 +41,9 @@ about:
 # Leo: 增加自定义配置
 leocustom:
   # COLLECTION: /collection
-  Ywmb: https://leochan2017.github.io/ywmb/api-book/dist/index.html
   Leo.js: /leoJs
+  Ywpc: http://leochan2017.github.io/ywpc/
+  Ywmb: https://leochan2017.github.io/ywmb/api-book/dist/index.html
 
 # ========== Site ========== #
 # title of the site (good for SEO)
